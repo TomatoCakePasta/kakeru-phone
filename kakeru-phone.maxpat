@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 73.0, 126.0, 1122.0, 481.0 ],
+		"rect" : [ 73.0, 126.0, 744.0, 481.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,21 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.070588235294118, 0.203921568627451, 0.462745098039216, 0.0 ],
+					"bubble" : 1,
+					"id" : "obj-10",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 225.0, 248.566051244735718, 244.0, 64.0 ],
+					"text" : "音が出ない場合\nスピーカーがONになってるか\nlive.gainのフェーダーを上げる\nツールバー -> Options -> Audio Status",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-105",
 					"linecount" : 34,
