@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 366.0, 428.452853083610535, 183.0, 73.0 ],
+					"text" : "ダイヤルごとに\nモードを分けても良さそう\n0: 夢を話す\n2: AIチャットと対話\n3: Lo-Fiな音響を楽しむ"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.070588235294118, 0.203921568627451, 0.462745098039216, 0.0 ],
 					"bubble" : 1,
 					"id" : "obj-10",
