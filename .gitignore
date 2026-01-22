@@ -424,3 +424,4 @@ FodyWeavers.xsd
 /sample-sounds/**
 !/sample-sounds/**/
 !/sample-sounds/**/.gitkeep
+*.mp3
