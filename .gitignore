@@ -417,9 +417,14 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-/config/**
-!/config/**/
-!/config/**/.gitkeep
+# すべての config ディレクトリ配下を無視
+**/config/**
+
+# config ディレクトリ自体は許可
+!**/config/
+
+# gitkeep だけは追跡
+!**/config/**/.gitkeep
 
 /sample-sounds/**
 !/sample-sounds/**/
