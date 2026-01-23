@@ -426,7 +426,7 @@ FodyWeavers.xsd
 # gitkeep だけは追跡
 !**/config/**/.gitkeep
 
-/sample-sounds/**
-!/sample-sounds/**/
-!/sample-sounds/**/.gitkeep
+**/sample-sounds/**
+!**/sample-sounds/**/
+!**/sample-sounds/**/.gitkeep
 *.mp3
